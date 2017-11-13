@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${user.home}/pcf/week2/day4/apps-platform-acceleration-spring-configuration-code
